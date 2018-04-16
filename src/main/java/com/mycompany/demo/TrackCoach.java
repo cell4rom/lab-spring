@@ -1,5 +1,8 @@
 package com.mycompany.demo;
 
+import org.springframework.stereotype.Component;
+
+@Component("myTrackCoach")
 public class TrackCoach implements Coach {
 
 	public String getDailyWorkout() {
@@ -7,3 +10,13 @@ public class TrackCoach implements Coach {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
