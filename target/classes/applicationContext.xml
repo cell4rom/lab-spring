@@ -9,7 +9,7 @@
 
 
 	<!-- add entry to enable component scanning -->
-	<context:component-scan base-package="com.mycompany.demo" />
+<!-- 	<context:component-scan base-package="com.mycompany.demo" /> -->
 
 <!-- 	<bean id="myTrackCoach" class="com.mycompany.demo.TrackCoach"></bean> -->
 <!-- 	<bean id="myBaseballCoach" class="com.mycompany.demo.BaseballCoach"></bean> -->

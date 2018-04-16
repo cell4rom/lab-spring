@@ -2,7 +2,7 @@ package com.mycompany.demo;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class HelloSpringApp {
+public class HelloSpringAnnotationBeanDemoApp {
 
 	public static void main(String[] args) {
 
