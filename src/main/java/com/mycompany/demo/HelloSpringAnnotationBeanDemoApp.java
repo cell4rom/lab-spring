@@ -12,11 +12,8 @@ public class HelloSpringAnnotationBeanDemoApp {
 		// retrieve bean from spring container
 		Coach theTrackCoach = context.getBean("myTrackCoach", Coach.class);
 
-		Coach theBaseballCoach = context.getBean("myBaseballCoach", Coach.class);
-
 		// call methods on the bean
 		System.out.println(theTrackCoach.getDailyWorkout());
-		System.out.println(theBaseballCoach.getDailyWorkout());
 
 		// close the context
 		context.close();
