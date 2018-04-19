@@ -2,6 +2,7 @@ package com.mycompany.aopdemo;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import com.mycompany.aopdemo.dao.MembershipDAO;
 import com.mycompany.aopdemo.dao.AccountDAO;
 
 public class MainDemoApp {
@@ -15,15 +16,16 @@ public class MainDemoApp {
 		// get the bean from spring container
 		AccountDAO theAccountDAO = context.getBean("accountDAO", AccountDAO.class);
 		
+		// get membership bean from spring container
+		MembershipDAO theMembershipDAO = 
+				context.getBean("membershipDAO", MembershipDAO.class);
+				
 		// call the business method
 		theAccountDAO.addAccount();
 
-		// do it again!
-		System.out.println("\nlet's call it again!\n");
-		
-		// call the business method again
-		theAccountDAO.addAccount();
-				
+		// call the membership business method
+		theMembershipDAO.addSillyMember();
+						
 		// close the context
 		context.close();
 	}
