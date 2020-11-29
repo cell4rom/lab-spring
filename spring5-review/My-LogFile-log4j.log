@@ -1,0 +1,4 @@
+2020-11-29 21:31:46,045 INFO main eu.yayi.client.DemoSpringCore - Logging Powered by LOG4J - Hello logging!
+2020-11-29 21:31:46,048 INFO main eu.yayi.client.DemoSpringCore - Person{firsName='samir', lastName='romdhani'}
+2020-11-29 21:31:46,649 INFO main eu.yayi.client.DemoSpringCore - Person{firsName='ALI', lastName=''}
+2020-11-29 21:32:38,418 INFO main eu.yayi.client.Demo2SpringCore - ALL .... [Person{firsName='ALI', lastName=''}]
